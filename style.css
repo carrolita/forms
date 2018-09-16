@@ -1,0 +1,119 @@
+
+img {
+  width: 198px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1 {
+  max-width: 328px;
+  height: 88px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 {
+  max-width: 448px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fb-text {
+  color: white
+  width: 198px;
+  height: 100px;
+  display: block;
+  margin: center;
+  text-align: center;
+}
+
+.button1 {
+  background-color: #3B5998;
+  color: white;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 500px;
+  letter-spacing: 2px;
+  padding: 16px 48px;
+  margin-top: 18px;
+}
+
+.button2 {
+  background-color: #1DB954;
+  color: white;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 500px;
+  letter-spacing: 2px;
+  padding: 16px 48px;
+  margin-top: 18px;
+}
+
+  .input {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  appearance: none;
+}
+
+  footer {
+  margin-top: 300px;
+  width: 328px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radio-buttons {
+  background-color: red;
+}
+
+.text1 {
+  color: #88898c;
+  font-size: .75em;
+  padding-left: 20px;
+  margin-top: -16px;
+}
+
+.text {
+  margin-top: -8px;
+  text-align:left;
+  color: gray;
+  font-size: .75em;
+}
+
+.input-year {
+  flex: 1 1;
+}
+
+.input-month {
+  flex: 1 1;
+  margin: 0 8px;
+}
+
+.input-day {
+  flex: 1 1;
+}
+
+.date-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  border-color: #F5F5F5;
+}
+
+.checkbox {
+  margin-top: 18px;
+}

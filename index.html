@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Registrera dig - Spotify</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <img src="images/spotify.image.png" alt="spotify">
+    </header>
+
+    <hr class="line"/>
+
+    <div class="container1">
+        <button class="button1">REGISTRERA DIG MED FACEBOOK</button>
+    </div>
+
+    <div class="fb-text">
+        <h3>Registrera dig med din e-postadress</h3>
+    </div>
+
+    <div class="container2">
+      <form action="https://httpbin.org/anything" method="post">
+        <input name="email" class="input" type="text" placeholder="E-post"><br>
+        <input name="confirmEmail" class="input" type="text" placeholder="Bekräfta e-postadressen"><br>
+        <input name="password" class="input" type="password" placeholder="Lösenord"><br>
+        <input name="nickName" class="input" type="text" placeholder="Vad ska vi kalla dig?"><br>
+
+
+        <span>Födelsedatum:</span>
+        <div class="date-row">
+          <input name="year" class="input input-year" type="text" placeholder="År">
+          <select id="month" name="month" class="input input-month">
+            <option value="">Månad</option>
+            <option value="Januari">Januari</option>
+            <option value="Febrauri">Febrauri</option>
+            <option value="Mars">Mars</option>
+            <option value="April">April</option>
+            <option value="Maj">Maj</option>
+            <option value="Juni">Juni</option>
+            <option value="Juli">Juli</option>
+            <option value="Augusti">Augusti</option>
+            <option value="September">September</option>
+            <option value="Oktober">Oktober</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <input name="day" class="input input-day" type="text" placeholder="Dag">
+        </div>
+        <br><br>
+
+        <input type="radio" name="gender" value="male"> Man
+        <input type="radio" name="gender" value="male"> Kvinna
+        <input type="radio" name="gender" value="male"> Icke-binär <br>
+        <input class="checkbox"type="checkbox" name="registreringsinformation" value="registreringsinformation"> Skicka nyheter till mig
+
+        <button type="submit" class="button2">REGISTRERA DIG</button>
+      </form>
+    </div>
+  </body>
+</html>
